@@ -12,4 +12,13 @@ object Program {
 
     println("Bye!")
   }
+
+  def method1: Unit = {
+
+  }
+
+  def holySub_: (x: Int, y:Int): Int = {x - y }
 }
+
+
+  case class MyBag(myValue: Int) { def holy$colon(y: MyBag): Int = {  myValue - y.myValue  }}
