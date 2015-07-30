@@ -7,6 +7,7 @@ object Program {
 
     //var? no no no!
     var variavel1 = 43;
+    var variavel2 = 32;
 
     println(variavel1)
 
