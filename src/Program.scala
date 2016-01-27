@@ -9,10 +9,14 @@ object Program {
     var variavel1 = 42;
  
     var variavel2 = 43
+    
+    val variavelBla = variavel1 + variavel2
 
     println(variavel1)
 
     println(variavel2)
+
+    println(variavelBla)
 
     println("Bye!")
   }
