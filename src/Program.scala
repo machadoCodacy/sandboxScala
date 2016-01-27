@@ -12,11 +12,15 @@ object Program {
     
     val variavelBla = variavel1 + variavel2
 
+    var amazing = variavelBla + 33
+
     println(variavel1)
 
     println(variavel2)
 
     println(variavelBla)
+    
+    println(amazing)
 
     println("Bye!")
   }
