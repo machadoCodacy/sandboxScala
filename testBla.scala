@@ -10,6 +10,8 @@ List(1,2,3).collectFirst {
   case blaa if blaa > 1 => "nop"
 }
 
+var testExcludeDeps = 123
+
 //BUM!!!
 List(1,2,3).map {
   case bla if bla > 2 => "yey"
